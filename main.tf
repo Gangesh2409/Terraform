@@ -49,4 +49,5 @@ resource "aws_subnet" "dev-subnet-2" {
     tags = {
         Name = "subnet-2-default"
     }
+    
 }
