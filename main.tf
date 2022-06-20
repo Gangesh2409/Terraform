@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "eu-west-3"
+    region = "us-esat-1"
 }
 
 variable cidr_blocks {
@@ -49,5 +49,5 @@ resource "aws_subnet" "dev-subnet-2" {
     tags = {
         Name = "subnet-2-default"
     }
-    
+
 }
